@@ -43,5 +43,5 @@ spec:
         backend:
           service:
             name: my-echo
-            port: 
+            port:
               number: 1323
