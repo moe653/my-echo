@@ -1,7 +1,7 @@
 NAME := my-echo
 REPOSITORY := moekaa/$(NAME)
 TAG := 20250807
-GOOS := windows
+GOOS := linux
 GOARCH := amd64
 
 
