@@ -4,6 +4,7 @@ TAG := 20250807
 GOOS := windows
 GOARCH := amd64
 
+
 .PHONY: build test image-build image-push clean
 build:
 	GOOS=$(GOOS) GOARCH=$(GOARCH) go build -o _output/$(NAME) .
