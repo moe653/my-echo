@@ -1,6 +1,6 @@
 NAME := my-echo
 REPOSITORY := moe653/$(NAME)
-TAG := 20250807
+TAG := 20250807.01
 GOOS := linux
 GOARCH := amd64
 
