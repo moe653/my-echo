@@ -1,7 +1,7 @@
 NAME := my-echo
 REPOSITORY := moekaa/$(NAME)
 TAG := 20250807
-GOOS := linux
+GOOS := windows
 GOARCH := amd64
 
 .PHONY: build test image-build image-push clean
